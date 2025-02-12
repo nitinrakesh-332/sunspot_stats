@@ -39,7 +39,7 @@ module Sunspot
           else
             rows.sort! { |lrow, rrow| lrow.stat_field <=> rrow.stat_field }
           end if @sort
-          return rows.empty? ? [] : rows[0..@options[:limit]]
+          rows.empty? ? [] : rows[0..@options[:limit]]
         rescue Exception => e
           puts "Sunspot Stats error: #{e.message} \n\n #{e.backtrace}"
           return []
