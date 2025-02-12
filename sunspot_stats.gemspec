@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   
   gem.add_development_dependency "rspec"
   
-  gem.rdoc_options << '--webcvs=http://github.com/giovannelli/sunspot_stats/tree/master/%s' <<
+  gem.rdoc_options << '--webcvs=http://https://github.com/nitinrakesh-332/sunspot_stats/tree/master/%s' <<
                    '--title' << 'Sunspot Stat - StatsComponent for sunspot - API Documentation' <<
                    '--main' << 'README.rdoc'
 end
